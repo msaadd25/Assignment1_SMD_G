@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/socially_logo"
+            android:layout_width="300dp"
+            android:layout_height="282dp"
+            android:layout_marginTop="260dp"
+            android:contentDescription="Socially logo"
+            android:src="@drawable/socially_logo_mainscreen" />
+
+        <ImageView
+            android:id="@+id/from_smd"
+            android:layout_width="240dp"
+            android:layout_height="149dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="From SMD text"
+            android:src="@drawable/from_smd" />
+
+    </LinearLayout>
+
+</FrameLayout>
